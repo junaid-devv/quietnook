@@ -1,0 +1,28 @@
+# Current verification — November 9, 2026
+
+## Contact correction and launch review — November 9, 2026
+
+Public contact is now `quietnookk@gmail.com` in hosted settings (including About/policy text), source defaults, taxonomy/settings seed, setup/verification scripts, documentation and local contact configuration. Hosted readback confirmed the former address is absent from current settings. Historical backups remain unchanged. Exact current hosted article count is **one**; older zero-content reports below describe the original handoff. No article was created, changed or deleted during this review.
+
+Current launch configuration fails because `STAGING=true`. A diagnostic run overriding staging only within that check also fails because `operator_name` is empty. About/Privacy/Terms text is present; newsletter remains disabled. Hosting/TLS, production environment and indexing, active host scheduler, real administrator sign-in/recovery, and full recovery verification remain outstanding or unverified. Domain setup alone does not complete launch readiness. All 10 automated tests and TypeScript checks pass in this review.
+
+This section supersedes the historical notes below. The dedicated Supabase project tvdnsqmvxxencezenzwx is connected. All three migrations and taxonomy/settings-only seeds are applied. Public signup is disabled. Exact hosted counts are zero articles, authors, media and revisions. Twenty categories exist. Supabase advisors now report no issues. See hosted-verification.json and supabase-advisors.json.
+
+Supabase accepted the administrator invitation for junaiddevv@gmail.com and editor membership is configured. Inbox delivery and password/session completion remain unverified. Live isolated private-storage upload, denial, deletion, restore and hash checks passed and the temporary bucket was cleaned. An actual application-table backup restored into isolated PostgreSQL with matching counts; this excludes hosted Auth credentials and is not a full disaster-recovery drill. See storage-verification.json and backup-restore-verification.json.
+
+All five tests and TypeScript pass. The production build passes. The 26-route production-mode SEO audit verifies titles, descriptions, headings, canonicals, sharing metadata, structured data, indexability and missing-page statuses. Pagination has distinct canonicals; empty/unfinished/search/private pages remain noindex. Staging noindex and optional fail-closed Basic authentication are implemented. The approved visual design is preserved with responsive static AVIF/WebP hero assets.
+
+Three final mobile Lighthouse runs have median scores 97 performance, 100 accessibility, 100 best practices and 100 SEO. Median LCP is 2.55 seconds (slightly above the 2.5-second target), CLS approximately 0.0002, TBT 55.5ms and transferred data about 400KiB. These are connected local production-mode lab measurements, not deployed or field results. INP remains unmeasured. See lighthouse-summary.json for all three runs, settings, earlier runs and limitations.
+
+Remaining launch work requires actual host/domain/TLS access, active minute scheduling, production/staging configuration, administrator password completion, authenticated staging publication/session/cache checks, real publisher/About/policy text, provider credentials and delivery/double-opt-in verification, Search Console/Pinterest ownership, full hosted Auth/database recovery, and screen-reader/zoom checks. The full CLI database dump could not run without Docker/Podman. Browser navigation failed in the current tool, so manual accessibility checks remain unverified. No public deployment or article creation was performed. Lighthouse accessibility 100 is not a WCAG conformance claim.
+
+
+Final connected HTTP scheduler checks passed twice; the server secret is absent from all 16 scanned public asset files. Public JavaScript gzip estimate: 148,342 bytes. Earlier responsive evidence is retained in QA-historical.md and output/playwright/.
+
+## Required-page follow-up
+About and Contact are implemented; About now includes factual site-purpose copy and a contact link without invented biography. Policies render escaped plain text with structured section headings. The authenticated /admin/pages/ screen lists required pages, configuration status, missing facts and private previews. Empty policies retain 404 behavior as required by the canonical plan; operator country/identity and actual commercial/data practices are still needed to finish their text. Domain setup remains deferred at the user’s request.
+
+## Policy-page completion
+At the user’s request, full current-operation Privacy, Terms and Affiliate Disclosure copy and About copy were saved to hosted settings on November 9, 2026. This supersedes the empty-policy status above. The copy identifies the supplied public contact channel and actual configured services, avoids invented operator identity/jurisdiction or affiliate membership, and must be reviewed when actual hosting or commercial practices change. Footer, related-policy navigation and Contact privacy links are included. Policies remain noindex. No jurisdiction-specific compliance guarantee is made. References consulted: https://www.ftc.gov/business-guidance/resources/ftcs-endorsement-guides-what-people-are-asking and https://ico.org.uk/global/privacy-notice/your-data-protection-rights/.
+
+Final policy follow-up: production compilation and TypeScript pass; hosted settings contain all four page texts and exact article count remains zero. SEO audit now includes 29 public routes and asserts all five footer links on each route. Policies intentionally retain noindex.

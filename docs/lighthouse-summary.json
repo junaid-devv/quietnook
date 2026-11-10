@@ -1,0 +1,139 @@
+{
+  "date": "2026-11-09T07:59:35.484Z",
+  "environment": "Windows, Node 22.15, connected Next.js production-mode build, loopback port 3004, Lighthouse 12.8.2, simulated mobile throttling; static responsive hero; no public deployment",
+  "runs": [
+    {
+      "file": "output/lighthouse-static-hero-mobile-1.json",
+      "date": "2026-11-09T07:54:07.095Z",
+      "requestedUrl": "http://127.0.0.1:3004/",
+      "scores": {
+        "performance": 97,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "lcp_ms": 2547.7898999999998,
+      "cls": 0.0002119693624703152,
+      "tbt_ms": 56.000000000000114,
+      "transferred_bytes": 411136,
+      "settings": {
+        "formFactor": "mobile",
+        "throttlingMethod": "simulate",
+        "throttling": {
+          "rttMs": 150,
+          "throughputKbps": 1638.4,
+          "requestLatencyMs": 562.5,
+          "downloadThroughputKbps": 1474.5600000000002,
+          "uploadThroughputKbps": 675,
+          "cpuSlowdownMultiplier": 4
+        },
+        "screenEmulation": {
+          "mobile": true,
+          "width": 412,
+          "height": 823,
+          "deviceScaleFactor": 1.75,
+          "disabled": false
+        }
+      }
+    },
+    {
+      "file": "output/lighthouse-static-hero-mobile-2.json",
+      "date": "2026-11-09T07:57:48.103Z",
+      "requestedUrl": "http://127.0.0.1:3004/",
+      "scores": {
+        "performance": 98,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "lcp_ms": 2499.7122499999996,
+      "cls": 0.0002119693624703152,
+      "tbt_ms": 55.5,
+      "transferred_bytes": 409980,
+      "settings": {
+        "formFactor": "mobile",
+        "throttlingMethod": "simulate",
+        "throttling": {
+          "rttMs": 150,
+          "throughputKbps": 1638.4,
+          "requestLatencyMs": 562.5,
+          "downloadThroughputKbps": 1474.5600000000002,
+          "uploadThroughputKbps": 675,
+          "cpuSlowdownMultiplier": 4
+        },
+        "screenEmulation": {
+          "mobile": true,
+          "width": 412,
+          "height": 823,
+          "deviceScaleFactor": 1.75,
+          "disabled": false
+        }
+      }
+    },
+    {
+      "file": "output/lighthouse-static-hero-mobile-3.json",
+      "date": "2026-11-09T07:58:40.693Z",
+      "requestedUrl": "http://127.0.0.1:3004/",
+      "scores": {
+        "performance": 93,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "lcp_ms": 3180.93855,
+      "cls": 0.0002119693624703152,
+      "tbt_ms": 49.99999999999977,
+      "transferred_bytes": 406278,
+      "settings": {
+        "formFactor": "mobile",
+        "throttlingMethod": "simulate",
+        "throttling": {
+          "rttMs": 150,
+          "throughputKbps": 1638.4,
+          "requestLatencyMs": 562.5,
+          "downloadThroughputKbps": 1474.5600000000002,
+          "uploadThroughputKbps": 675,
+          "cpuSlowdownMultiplier": 4
+        },
+        "screenEmulation": {
+          "mobile": true,
+          "width": 412,
+          "height": 823,
+          "deviceScaleFactor": 1.75,
+          "disabled": false
+        }
+      }
+    }
+  ],
+  "median": {
+    "scores": {
+      "performance": 97,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "lcp_ms": 2547.7898999999998,
+    "cls": 0.0002119693624703152,
+    "tbt_ms": 55.5,
+    "transferred_bytes": 409980
+  },
+  "earlier_runs": [
+    {
+      "file": "output/lighthouse-mobile-1.json",
+      "note": "Baseline: staging noindex intentionally reduces SEO score; request-time hero optimization"
+    },
+    {
+      "file": "output/lighthouse-final-mobile-1.json",
+      "note": "Intermediate hero-priority run overlapped automated tests; retained for transparency, excluded from final consistent three-run median"
+    }
+  ],
+  "interruptions": [
+    "An attempted second final run failed to start because the disk was full. It produced no valid measurement. Only task-generated build caches were cleared before retrying."
+  ],
+  "limitations": [
+    "Lab LCP/CLS are not real-user 75th-percentile measurements. INP and field Core Web Vitals remain unavailable without real traffic.",
+    "Local serving omits deployed CDN/hosting latency and cannot establish WCAG conformance.",
+    "The 26-route SEO audit is separate; Lighthouse category scores here apply only to the homepage.",
+    "Only default-hero assets are measured; remeasure after selecting other hero/media, analytics, ads or integrations."
+  ]
+}

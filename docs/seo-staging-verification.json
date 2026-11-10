@@ -1,0 +1,220 @@
+{
+  "date": "2026-11-09T08:16:44.076Z",
+  "environment": "Connected production build served on loopback http://127.0.0.1:3003; not a public deployment",
+  "rows": [
+    {
+      "route": "/",
+      "title": "quietnook | Home Decor, Small Spaces &amp; Seasonal Ideas",
+      "description": "Explore rooms, small-space living, and the seasons at quietnook. New decorating and organization guides are on the way.",
+      "robots": "noindex, follow, max-image-preview:large",
+      "canonical": "https://quietnook.com/"
+    },
+    {
+      "route": "/decor-ideas/",
+      "title": "Home Decor Ideas | quietnook",
+      "description": "Thoughtful touches, familiar textures, and room to make it yours. New guides are on the way at quietnook.",
+      "robots": "noindex, follow, max-image-preview:large",
+      "canonical": "https://quietnook.com/decor-ideas/"
+    },
+    {
+      "route": "/small-spaces/",
+      "title": "Small-Space Decorating Ideas | quietnook",
+      "description": "Make a little room for the things you love. New guides are on the way at quietnook.",
+      "robots": "noindex, follow, max-image-preview:large",
+      "canonical": "https://quietnook.com/small-spaces/"
+    },
+    {
+      "route": "/organization/",
+      "title": "Home Organization Ideas | quietnook",
+      "description": "Simple systems for a calmer, more comfortable home. New guides are on the way at quietnook.",
+      "robots": "noindex, follow, max-image-preview:large",
+      "canonical": "https://quietnook.com/organization/"
+    },
+    {
+      "route": "/diy-projects/",
+      "title": "DIY Home Decor &amp; Projects | quietnook",
+      "description": "Small projects with a personal touch. New guides are on the way at quietnook.",
+      "robots": "noindex, follow, max-image-preview:large",
+      "canonical": "https://quietnook.com/diy-projects/"
+    },
+    {
+      "route": "/rooms/",
+      "title": "Room Decorating Ideas | quietnook",
+      "description": "Browse quietnook by room, from living rooms and bedrooms to kitchens, bathrooms, and balconies.",
+      "robots": "noindex, follow, max-image-preview:large",
+      "canonical": "https://quietnook.com/rooms/"
+    },
+    {
+      "route": "/seasons/",
+      "title": "Seasonal &amp; Holiday Decor Ideas | quietnook",
+      "description": "Explore seasonal and holiday decorating at quietnook, from spring and summer to fall, winter, and celebrations.",
+      "robots": "noindex, follow, max-image-preview:large",
+      "canonical": "https://quietnook.com/seasons/"
+    },
+    {
+      "route": "/about/",
+      "title": "About quietnook | quietnook",
+      "description": "Meet quietnook, a publication about approachable decorating, small-space living, organization, DIY, and the seasons at home.",
+      "robots": "noindex, follow, max-image-preview:large",
+      "canonical": "https://quietnook.com/about/"
+    },
+    {
+      "route": "/contact/",
+      "title": "Contact | quietnook",
+      "description": "Contact quietnook with a question or suggestion about home decorating, small spaces, organization, or seasonal ideas.",
+      "robots": "noindex, follow, max-image-preview:large",
+      "canonical": "https://quietnook.com/contact/"
+    },
+    {
+      "route": "/privacy/",
+      "title": "Privacy | quietnook",
+      "description": "Privacy information for quietnook.",
+      "robots": "noindex, follow, max-image-preview:large",
+      "canonical": "https://quietnook.com/privacy/"
+    },
+    {
+      "route": "/terms/",
+      "title": "Terms of Use | quietnook",
+      "description": "Terms of use for quietnook.",
+      "robots": "noindex, follow, max-image-preview:large",
+      "canonical": "https://quietnook.com/terms/"
+    },
+    {
+      "route": "/affiliate-disclosure/",
+      "title": "Affiliate Disclosure | quietnook",
+      "description": "Information about affiliate relationships at quietnook.",
+      "robots": "noindex, follow, max-image-preview:large",
+      "canonical": "https://quietnook.com/affiliate-disclosure/"
+    },
+    {
+      "route": "/search/?q=storage",
+      "title": "Search home ideas | quietnook",
+      "description": "Search quietnook for published home decorating, organization, small-space, DIY, and seasonal ideas.",
+      "robots": "noindex, follow, max-image-preview:large",
+      "canonical": null
+    },
+    {
+      "route": "/rooms/living-room/",
+      "title": "Living Room Decorating Ideas | quietnook",
+      "description": "Comfortable corners for everyday living. New guides are on the way at quietnook.",
+      "robots": "noindex, follow, max-image-preview:large",
+      "canonical": "https://quietnook.com/rooms/living-room/"
+    },
+    {
+      "route": "/rooms/bedroom/",
+      "title": "Bedroom Decorating Ideas | quietnook",
+      "description": "A softer place to start and end the day. New guides are on the way at quietnook.",
+      "robots": "noindex, follow, max-image-preview:large",
+      "canonical": "https://quietnook.com/rooms/bedroom/"
+    },
+    {
+      "route": "/rooms/kitchen/",
+      "title": "Kitchen Decor &amp; Organization Ideas | quietnook",
+      "description": "Practical spaces with a little everyday warmth. New guides are on the way at quietnook.",
+      "robots": "noindex, follow, max-image-preview:large",
+      "canonical": "https://quietnook.com/rooms/kitchen/"
+    },
+    {
+      "route": "/rooms/bathroom/",
+      "title": "Bathroom Decor &amp; Organization Ideas | quietnook",
+      "description": "Thoughtful details for even the smallest room. New guides are on the way at quietnook.",
+      "robots": "noindex, follow, max-image-preview:large",
+      "canonical": "https://quietnook.com/rooms/bathroom/"
+    },
+    {
+      "route": "/rooms/balcony/",
+      "title": "Balcony Decorating Ideas | quietnook",
+      "description": "Fresh air and cozy corners, just outside your door. New guides are on the way at quietnook.",
+      "robots": "noindex, follow, max-image-preview:large",
+      "canonical": "https://quietnook.com/rooms/balcony/"
+    },
+    {
+      "route": "/seasons/christmas/",
+      "title": "Christmas Decorating Ideas | quietnook",
+      "description": "Warm lights and thoughtful touches for the holiday season. New guides are on the way at quietnook.",
+      "robots": "noindex, follow, max-image-preview:large",
+      "canonical": "https://quietnook.com/seasons/christmas/"
+    },
+    {
+      "route": "/seasons/halloween/",
+      "title": "Halloween Decorating Ideas | quietnook",
+      "description": "A little playful magic for your home. New guides are on the way at quietnook.",
+      "robots": "noindex, follow, max-image-preview:large",
+      "canonical": "https://quietnook.com/seasons/halloween/"
+    },
+    {
+      "route": "/seasons/fall/",
+      "title": "Fall Decorating Ideas | quietnook",
+      "description": "Earthy colors, soft layers, and a slower pace. New guides are on the way at quietnook.",
+      "robots": "noindex, follow, max-image-preview:large",
+      "canonical": "https://quietnook.com/seasons/fall/"
+    },
+    {
+      "route": "/seasons/new-years-eve/",
+      "title": "New Year&#x27;s Eve Decor Ideas | quietnook",
+      "description": "Simple ways to welcome a fresh beginning. New guides are on the way at quietnook.",
+      "robots": "noindex, follow, max-image-preview:large",
+      "canonical": "https://quietnook.com/seasons/new-years-eve/"
+    },
+    {
+      "route": "/seasons/valentines-day/",
+      "title": "Valentine&#x27;s Day Decor Ideas | quietnook",
+      "description": "Little details that come from the heart. New guides are on the way at quietnook.",
+      "robots": "noindex, follow, max-image-preview:large",
+      "canonical": "https://quietnook.com/seasons/valentines-day/"
+    },
+    {
+      "route": "/seasons/spring/",
+      "title": "Spring Decorating Ideas | quietnook",
+      "description": "Fresh blooms and lighter days at home. New guides are on the way at quietnook.",
+      "robots": "noindex, follow, max-image-preview:large",
+      "canonical": "https://quietnook.com/seasons/spring/"
+    },
+    {
+      "route": "/seasons/summer/",
+      "title": "Summer Decorating Ideas | quietnook",
+      "description": "Easy living, indoors and out. New guides are on the way at quietnook.",
+      "robots": "noindex, follow, max-image-preview:large",
+      "canonical": "https://quietnook.com/seasons/summer/"
+    },
+    {
+      "route": "/seasons/winter/",
+      "title": "Winter Decorating Ideas | quietnook",
+      "description": "Cozy layers for the colder months. New guides are on the way at quietnook.",
+      "robots": "noindex, follow, max-image-preview:large",
+      "canonical": "https://quietnook.com/seasons/winter/"
+    },
+    {
+      "route": "/seasons/thanksgiving/",
+      "title": "Thanksgiving Decorating Ideas | quietnook",
+      "description": "A welcoming place to gather. New guides are on the way at quietnook.",
+      "robots": "noindex, follow, max-image-preview:large",
+      "canonical": "https://quietnook.com/seasons/thanksgiving/"
+    },
+    {
+      "route": "/seasons/easter/",
+      "title": "Easter Decorating Ideas | quietnook",
+      "description": "Gentle color and a fresh start for the season. New guides are on the way at quietnook.",
+      "robots": "noindex, follow, max-image-preview:large",
+      "canonical": "https://quietnook.com/seasons/easter/"
+    },
+    {
+      "route": "/seasons/fourth-of-july/",
+      "title": "Fourth of July Decorating Ideas | quietnook",
+      "description": "Easy touches for a summer gathering. New guides are on the way at quietnook.",
+      "robots": "noindex, follow, max-image-preview:large",
+      "canonical": "https://quietnook.com/seasons/fourth-of-july/"
+    }
+  ],
+  "checks": [
+    "29 public pages: distinct title, description, H1, canonical and sharing metadata",
+    "Staging/production indexing differences",
+    "Empty categories/search excluded from indexing",
+    "404s for absent content; policy pages available",
+    "Sitemap and robots match the intended state"
+  ],
+  "limitations": [
+    "No article/author fixtures created, so rendered real article metadata remains covered by template/code tests rather than a public example.",
+    "Search Console ownership and actual production crawling are not verified."
+  ]
+}

@@ -1,0 +1,14 @@
+import {createClient} from '@supabase/supabase-js';
+import {writeFile} from 'node:fs/promises';
+import assert from 'node:assert/strict';
+const db=createClient(process.env.NEXT_PUBLIC_SUPABASE_URL,process.env.SUPABASE_SERVICE_ROLE_KEY,{auth:{persistSession:false}});
+assert.equal(new URL(process.env.NEXT_PUBLIC_SUPABASE_URL).hostname,'tvdnsqmvxxencezenzwx.supabase.co');
+const {data:a,error}=await db.from('articles').select('id,body,updated_at').eq('id','6f678885-6674-4876-aa39-57f52faef99a').single();assert.ifError(error);
+const firstHeading=a.body.findIndex(b=>b.type==='heading');assert.ok(firstHeading>0);assert.ok(a.body.slice(0,firstHeading).every(b=>b.type==='paragraph'));
+await writeFile('output/cy12/before-short-intro.json',JSON.stringify(a,null,2));
+const text='Make your small porch, doorstep, or balcony feel festive with these 21 outdoor Christmas decorating ideas, from wreaths and lanterns to greenery and twinkling lights. Choose pieces that fit your space, use outdoor-rated lighting, and keep doors and walkways clear.';
+const body=[{type:'paragraph',text},...a.body.slice(firstHeading)];
+const body_text=body.map(b=>b.text??b.items?.join(' ')??b.caption??'').join('\n');
+const {data:changed,error:save}=await db.from('articles').update({body,body_text}).eq('id',a.id).eq('updated_at',a.updated_at).select('id');assert.ifError(save);assert.equal(changed.length,1);
+const {data:v,error:ve}=await db.from('articles').select('body').eq('id',a.id).single();assert.ifError(ve);assert.equal(v.body[0].text,text);assert.equal(v.body[1].type,'heading');assert.equal(v.body.filter(b=>b.type==='image').length,21);
+console.log(JSON.stringify({introduction:text,paragraphs:1,images:21}));

@@ -1,0 +1,42 @@
+{
+  "name": "quietnook",
+  "version": "1.0.0",
+  "private": true,
+  "engines": { "node": "22.x" },
+  "scripts": {
+    "dev": "next dev --hostname 127.0.0.1",
+    "build": "next build",
+    "start": "next start --hostname 127.0.0.1",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test tests/*.test.ts",
+    "assets": "node scripts/prepare-assets.mjs",
+    "verify:empty": "node scripts/verify-empty.mjs",
+    "test:smoke": "node scripts/smoke.mjs",
+    "check:launch": "node scripts/check-launch.mjs",
+    "verify:hosted": "node scripts/verify-hosted.mjs",
+    "audit:seo": "node scripts/audit-seo.mjs"
+  },
+  "dependencies": {
+    "@supabase/ssr": "0.12.7",
+    "@supabase/supabase-js": "2.119.0",
+    "next": "16.4.5",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "server-only": "^0.0.1",
+    "sharp": "^0.35.5",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@electric-sql/pglite": "^0.5.15",
+    "@fontsource/dm-sans": "^5.3.0",
+    "@fontsource/lora": "^5.3.0",
+    "@tailwindcss/postcss": "^4.1.0",
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "prettier": "^3.9.10",
+    "tailwindcss": "^4.1.0",
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.3"
+  }
+}

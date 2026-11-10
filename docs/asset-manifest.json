@@ -1,0 +1,82 @@
+[
+  {
+    "file": "/images/hero.webp",
+    "width": 1500,
+    "height": 1000,
+    "bytes": 224790,
+    "provenance": "Newly generated with OpenAI ImageGen for this build on 2026-11-08",
+    "license": "Generated asset; no third-party stock source claimed",
+    "focal_point": "50% 50%",
+    "alt": "A cream sofa with rust cushions and plants in a sunlit living room."
+  },
+  {
+    "file": "/images/christmas.webp",
+    "width": 384,
+    "height": 512,
+    "bytes": 45800,
+    "provenance": "Newly generated with OpenAI ImageGen for this build on 2026-11-08",
+    "license": "Generated asset; no third-party stock source claimed",
+    "focal_point": "50% 50%",
+    "alt": "Decorative category image; adjacent link supplies its accessible name."
+  },
+  {
+    "file": "/images/halloween.webp",
+    "width": 384,
+    "height": 512,
+    "bytes": 36028,
+    "provenance": "Newly generated with OpenAI ImageGen for this build on 2026-11-08",
+    "license": "Generated asset; no third-party stock source claimed",
+    "focal_point": "50% 50%",
+    "alt": "Decorative category image; adjacent link supplies its accessible name."
+  },
+  {
+    "file": "/images/fall.webp",
+    "width": 384,
+    "height": 512,
+    "bytes": 42280,
+    "provenance": "Newly generated with OpenAI ImageGen for this build on 2026-11-08",
+    "license": "Generated asset; no third-party stock source claimed",
+    "focal_point": "50% 50%",
+    "alt": "Decorative category image; adjacent link supplies its accessible name."
+  },
+  {
+    "file": "/images/new-years-eve.webp",
+    "width": 384,
+    "height": 512,
+    "bytes": 40960,
+    "provenance": "Newly generated with OpenAI ImageGen for this build on 2026-11-08",
+    "license": "Generated asset; no third-party stock source claimed",
+    "focal_point": "50% 50%",
+    "alt": "Decorative category image; adjacent link supplies its accessible name."
+  },
+  {
+    "file": "/images/valentines-day.webp",
+    "width": 384,
+    "height": 512,
+    "bytes": 25568,
+    "provenance": "Newly generated with OpenAI ImageGen for this build on 2026-11-08",
+    "license": "Generated asset; no third-party stock source claimed",
+    "focal_point": "50% 50%",
+    "alt": "Decorative category image; adjacent link supplies its accessible name."
+  },
+  {
+    "file": "/images/spring.webp",
+    "width": 384,
+    "height": 512,
+    "bytes": 35250,
+    "provenance": "Newly generated with OpenAI ImageGen for this build on 2026-11-08",
+    "license": "Generated asset; no third-party stock source claimed",
+    "focal_point": "50% 50%",
+    "alt": "Decorative category image; adjacent link supplies its accessible name."
+  },
+  {
+    "file": "/images/summer.webp",
+    "width": 384,
+    "height": 512,
+    "bytes": 55692,
+    "provenance": "Newly generated with OpenAI ImageGen for this build on 2026-11-08",
+    "license": "Generated asset; no third-party stock source claimed",
+    "focal_point": "50% 50%",
+    "alt": "Decorative category image; adjacent link supplies its accessible name."
+  }
+]

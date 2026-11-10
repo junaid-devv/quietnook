@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-09T07:48:07.705Z",
+  "method": "SHA-256 checked application export restored into isolated PGlite using all migrations",
+  "restored": {
+    "editor_members": 1,
+    "categories": 20,
+    "media": 0,
+    "authors": 0,
+    "articles": 0,
+    "article_categories": 0,
+    "article_media": 0,
+    "revisions": 0,
+    "site_settings": 1,
+    "redirects": 0
+  },
+  "limitations": [
+    "Not a full hosted Supabase restore. Auth service, passwords and object bytes are outside this drill.",
+    "No content fixtures were added to production."
+  ]
+}

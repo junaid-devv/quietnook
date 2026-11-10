@@ -1,0 +1,13 @@
+import {createClient} from '@supabase/supabase-js';
+import {readFile,writeFile} from 'node:fs/promises';
+import assert from 'node:assert/strict';
+const anon=createClient(process.env.NEXT_PUBLIC_SUPABASE_URL,process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY,{auth:{persistSession:false}});
+const payload=JSON.parse(await readFile('output/cy11/article-prepared.json','utf8'));
+const manifest=JSON.parse(await readFile('output/cy11/media-manifest.json','utf8'));
+const {id}=JSON.parse(await readFile('output/cy11/article-id.json','utf8'));
+const {data:a,error}=await anon.from('articles').select('*,authors(name)').eq('id',id).single();assert.ifError(error);assert.equal(a.status,'published');assert.equal(a.body.filter(b=>b.type==='image').length,17);
+const {data:m,error:me}=await anon.from('media').select('id').in('id',manifest.map(m=>m.id));assert.ifError(me);assert.equal(m.length,18);
+const {data:s,error:se}=await anon.rpc('search_articles',{query_text:'christmas table decor ideas',category_slug:'christmas'});assert.ifError(se);assert.ok(s.some(a=>a.id===id));
+const {data:all,error:ae}=await anon.from('articles').select('id,title');assert.ifError(ae);assert.equal(all.length,2);
+const report={id,title:a.title,slug:a.slug,status:a.status,author:a.authors.name,categories:['christmas','decor-ideas','small-spaces'],bodyImages:17,heroImages:1,sourceBytes:manifest.reduce((n,m)=>n+m.source_bytes,0),optimizedBytes:manifest.reduce((n,m)=>n+m.bytes,0),articleCount:all.length,anonymousVisibilityVerified:true,searchVerified:true,staging:process.env.STAGING==='true',route:`/articles/${a.slug}/`};
+await writeFile('output/cy11/publication-result.json',JSON.stringify(report,null,2));console.log(JSON.stringify(report,null,2));

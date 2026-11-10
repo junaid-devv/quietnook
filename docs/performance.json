@@ -1,0 +1,80 @@
+{
+  "date": "2026-11-09T08:04:43.553Z",
+  "route": "/",
+  "environment": "Windows, Node 22.15, Next.js production server, loopback, connected Supabase database, unthrottled",
+  "method": "Sum gzipSync sizes of HTML script src resources, excluding nomodule-only scripts. This is a compressed transfer-size estimate, not a browser execution or field metric.",
+  "scripts": [
+    {
+      "src": "/_next/static/chunks/1wnov70f88xjy.js",
+      "bytes": 29127,
+      "gzip_bytes": 7650
+    },
+    {
+      "src": "/_next/static/chunks/3jn_x8ihwq16e.js",
+      "bytes": 229052,
+      "gzip_bytes": 71681
+    },
+    {
+      "src": "/_next/static/chunks/3kdh1jx1__v3q.js",
+      "bytes": 169504,
+      "gzip_bytes": 46467
+    },
+    {
+      "src": "/_next/static/chunks/turbopack-077hmtqrhcoji.js",
+      "bytes": 11199,
+      "gzip_bytes": 4354
+    },
+    {
+      "src": "/_next/static/chunks/3qfy96eoyh-ek.js",
+      "bytes": 13994,
+      "gzip_bytes": 3515
+    },
+    {
+      "src": "/_next/static/chunks/2aj8lwibc_ecn.js",
+      "bytes": 30758,
+      "gzip_bytes": 11388
+    },
+    {
+      "src": "/_next/static/chunks/3q4ncaa7dhigl.js",
+      "bytes": 459,
+      "gzip_bytes": 322
+    },
+    {
+      "src": "/_next/static/chunks/1jzcbtxl72m30.js",
+      "bytes": 1743,
+      "gzip_bytes": 935
+    },
+    {
+      "src": "/_next/static/chunks/1pcw6gskne7pf.js",
+      "bytes": 5600,
+      "gzip_bytes": 2030
+    }
+  ],
+  "total_javascript_gzip_bytes": 148342,
+  "local_document_fetch_ms": [
+    13.2,
+    10.31,
+    30.43
+  ],
+  "median_local_document_fetch_ms": 13.2,
+  "lighthouse_mobile": {
+    "scores": {
+      "performance": 97,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "lcp_ms": 2547.7898999999998,
+    "cls": 0.0002119693624703152,
+    "tbt_ms": 55.5,
+    "transferred_bytes": 409980
+  },
+  "lighthouse_evidence": "docs/lighthouse-summary.json",
+  "inp": null,
+  "limitations": [
+    "Lab LCP/CLS are not real-user 75th-percentile measurements. INP and field Core Web Vitals remain unavailable without real traffic.",
+    "Local serving omits deployed CDN/hosting latency and cannot establish WCAG conformance.",
+    "The 26-route SEO audit is separate; Lighthouse category scores here apply only to the homepage.",
+    "Only default-hero assets are measured; remeasure after selecting other hero/media, analytics, ads or integrations."
+  ]
+}

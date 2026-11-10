@@ -1,0 +1,16 @@
+.git/
+.agents/
+.playwright-cli/
+.next/
+.next-*/
+node_modules/
+output/
+backups/
+designs/
+docs/
+tests/
+.env*
+!.env.example
+*.tsbuildinfo
+*.private.json
+supabase/.temp/

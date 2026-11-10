@@ -1,0 +1,7 @@
+project_id = "quietnook"
+[auth]
+site_url = "https://quietnook.com"
+additional_redirect_urls = ["https://quietnook.com/auth/callback/", "http://127.0.0.1:3001/auth/callback/", "http://127.0.0.1:3003/auth/callback/"]
+enable_signup = false
+[auth.email]
+enable_confirmations = true

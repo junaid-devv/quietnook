@@ -1,0 +1,98 @@
+[
+  {
+    "h1": 1,
+    "overflow": false,
+    "path": "/",
+    "width": 320
+  },
+  {
+    "h1": 1,
+    "overflow": false,
+    "path": "/rooms/",
+    "width": 320
+  },
+  {
+    "h1": 1,
+    "overflow": false,
+    "path": "/seasons/",
+    "width": 320
+  },
+  {
+    "h1": 1,
+    "overflow": false,
+    "path": "/rooms/bedroom/",
+    "width": 320
+  },
+  {
+    "h1": 1,
+    "overflow": false,
+    "path": "/",
+    "width": 390
+  },
+  {
+    "h1": 1,
+    "overflow": false,
+    "path": "/rooms/",
+    "width": 390
+  },
+  {
+    "h1": 1,
+    "overflow": false,
+    "path": "/seasons/",
+    "width": 390
+  },
+  {
+    "h1": 1,
+    "overflow": false,
+    "path": "/rooms/bedroom/",
+    "width": 390
+  },
+  {
+    "h1": 1,
+    "overflow": false,
+    "path": "/",
+    "width": 768
+  },
+  {
+    "h1": 1,
+    "overflow": false,
+    "path": "/rooms/",
+    "width": 768
+  },
+  {
+    "h1": 1,
+    "overflow": false,
+    "path": "/seasons/",
+    "width": 768
+  },
+  {
+    "h1": 1,
+    "overflow": false,
+    "path": "/rooms/bedroom/",
+    "width": 768
+  },
+  {
+    "h1": 1,
+    "overflow": false,
+    "path": "/",
+    "width": 1280
+  },
+  {
+    "h1": 1,
+    "overflow": false,
+    "path": "/rooms/",
+    "width": 1280
+  },
+  {
+    "h1": 1,
+    "overflow": false,
+    "path": "/seasons/",
+    "width": 1280
+  },
+  {
+    "h1": 1,
+    "overflow": false,
+    "path": "/rooms/bedroom/",
+    "width": 1280
+  }
+]

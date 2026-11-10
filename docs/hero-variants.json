@@ -1,0 +1,62 @@
+{
+  "source": "/images/hero-nook.webp",
+  "provenance": "Derived from the independently generated hero recorded in asset-manifest.json; same rights and alt text.",
+  "variants": [
+    {
+      "path": "/images/hero-nook-480.avif",
+      "width": 480,
+      "height": 320,
+      "bytes": 6158,
+      "format": "avif"
+    },
+    {
+      "path": "/images/hero-nook-480.webp",
+      "width": 480,
+      "height": 320,
+      "bytes": 10188,
+      "format": "webp"
+    },
+    {
+      "path": "/images/hero-nook-768.avif",
+      "width": 768,
+      "height": 512,
+      "bytes": 15482,
+      "format": "avif"
+    },
+    {
+      "path": "/images/hero-nook-768.webp",
+      "width": 768,
+      "height": 512,
+      "bytes": 28686,
+      "format": "webp"
+    },
+    {
+      "path": "/images/hero-nook-1280.avif",
+      "width": 1280,
+      "height": 853,
+      "bytes": 35568,
+      "format": "avif"
+    },
+    {
+      "path": "/images/hero-nook-1280.webp",
+      "width": 1280,
+      "height": 853,
+      "bytes": 60856,
+      "format": "webp"
+    },
+    {
+      "path": "/images/hero-nook-1536.avif",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 59330,
+      "format": "avif"
+    },
+    {
+      "path": "/images/hero-nook-1536.webp",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 116140,
+      "format": "webp"
+    }
+  ]
+}

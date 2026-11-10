@@ -1,0 +1,85 @@
+{
+  "date": "2026-11-09T08:15:35.093Z",
+  "project": "tvdnsqmvxxencezenzwx",
+  "checks": [
+    {
+      "name": "Hosted taxonomy",
+      "status": "passed",
+      "detail": "20 taxonomy records accessible anonymously"
+    },
+    {
+      "name": "Public settings",
+      "status": "passed",
+      "detail": "Supplied public contact address configured"
+    },
+    {
+      "name": "Zero production articles",
+      "status": "passed",
+      "detail": "Exact count: 0"
+    },
+    {
+      "name": "Zero production authors",
+      "status": "passed",
+      "detail": "Exact count: 0"
+    },
+    {
+      "name": "Zero production media",
+      "status": "passed",
+      "detail": "Exact count: 0"
+    },
+    {
+      "name": "Zero production revisions",
+      "status": "passed",
+      "detail": "Exact count: 0"
+    },
+    {
+      "name": "Membership privacy",
+      "status": "passed",
+      "detail": "Anonymous table access denied"
+    },
+    {
+      "name": "Anonymous writes",
+      "status": "passed",
+      "detail": "Article save RPC denied before any insertion"
+    },
+    {
+      "name": "Scheduler authorization",
+      "status": "passed",
+      "detail": "Anonymous execution denied"
+    },
+    {
+      "name": "Hosted full-text search",
+      "status": "passed",
+      "detail": "Truthful empty result"
+    },
+    {
+      "name": "Private media bucket",
+      "status": "passed",
+      "detail": "Bucket exists and is not public"
+    },
+    {
+      "name": "Storage listing privacy",
+      "status": "passed",
+      "detail": "No private objects exposed"
+    },
+    {
+      "name": "Hosted registration",
+      "status": "passed",
+      "detail": "Public signups disabled"
+    },
+    {
+      "name": "Publisher RPC",
+      "status": "passed",
+      "detail": "Two server-authorized calls return 0 with zero articles; host scheduling remains separate"
+    },
+    {
+      "name": "Connected scheduler HTTP endpoint",
+      "status": "passed",
+      "detail": "Two bearer-authorized local server calls return 0; no active hosting scheduler claimed"
+    }
+  ],
+  "limitations": [
+    "No production article or author fixtures were created.",
+    "No real editor password/session, provider inbox delivery, active host cron, or backup restore is asserted by these checks."
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "date": "2026-11-09T04:50:08.181Z",
+  "method": "WCAG relative luminance ratios from the actual CSS tokens, explicit footer surface, and white button label. Placeholder color explicitly uses the muted token at full opacity.",
+  "checks": [
+    {
+      "text": "forest",
+      "surface": "cream",
+      "foreground": "#153528",
+      "background": "#fff9f4",
+      "ratio": 12.79,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "text": "forest",
+      "surface": "white",
+      "foreground": "#153528",
+      "background": "#ffffff",
+      "ratio": 13.36,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "text": "forest",
+      "surface": "peach",
+      "foreground": "#153528",
+      "background": "#f7e4da",
+      "ratio": 10.86,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "text": "forest",
+      "surface": "footer",
+      "foreground": "#153528",
+      "background": "#f2ebe2",
+      "ratio": 11.3,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "text": "rust",
+      "surface": "cream",
+      "foreground": "#a6381b",
+      "background": "#fff9f4",
+      "ratio": 6.28,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "text": "rust",
+      "surface": "white",
+      "foreground": "#a6381b",
+      "background": "#ffffff",
+      "ratio": 6.56,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "text": "rust",
+      "surface": "peach",
+      "foreground": "#a6381b",
+      "background": "#f7e4da",
+      "ratio": 5.33,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "text": "rust",
+      "surface": "footer",
+      "foreground": "#a6381b",
+      "background": "#f2ebe2",
+      "ratio": 5.54,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "text": "ink",
+      "surface": "cream",
+      "foreground": "#252b27",
+      "background": "#fff9f4",
+      "ratio": 13.83,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "text": "ink",
+      "surface": "white",
+      "foreground": "#252b27",
+      "background": "#ffffff",
+      "ratio": 14.45,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "text": "ink",
+      "surface": "peach",
+      "foreground": "#252b27",
+      "background": "#f7e4da",
+      "ratio": 11.74,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "text": "ink",
+      "surface": "footer",
+      "foreground": "#252b27",
+      "background": "#f2ebe2",
+      "ratio": 12.22,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "text": "muted",
+      "surface": "cream",
+      "foreground": "#5c645e",
+      "background": "#fff9f4",
+      "ratio": 5.85,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "text": "muted",
+      "surface": "white",
+      "foreground": "#5c645e",
+      "background": "#ffffff",
+      "ratio": 6.11,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "text": "muted",
+      "surface": "peach",
+      "foreground": "#5c645e",
+      "background": "#f7e4da",
+      "ratio": 4.96,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "text": "muted",
+      "surface": "footer",
+      "foreground": "#5c645e",
+      "background": "#f2ebe2",
+      "ratio": 5.16,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "text": "white button label",
+      "surface": "rust",
+      "foreground": "#ffffff",
+      "background": "#a6381b",
+      "ratio": 6.56,
+      "minimum": 4.5,
+      "pass": true
+    }
+  ],
+  "limitations": "Checks only these named solid-color pairs. Does not audit every component, imagery/gradients, disabled controls, focus area, or assistive-technology behavior; not a WCAG conformance claim."
+}

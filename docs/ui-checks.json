@@ -1,0 +1,117 @@
+{
+  "responsive": [
+    {
+      "contentWidth": 320,
+      "headingSize": "36px",
+      "scrollWidth": 320,
+      "width": 320
+    },
+    {
+      "contentWidth": 360,
+      "headingSize": "40px",
+      "scrollWidth": 360,
+      "width": 360
+    },
+    {
+      "contentWidth": 390,
+      "headingSize": "40px",
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "contentWidth": 430,
+      "headingSize": "40px",
+      "scrollWidth": 430,
+      "width": 430
+    },
+    {
+      "contentWidth": 768,
+      "headingSize": "49px",
+      "scrollWidth": 768,
+      "width": 768
+    },
+    {
+      "contentWidth": 1024,
+      "headingSize": "49.152px",
+      "scrollWidth": 1024,
+      "width": 1024
+    },
+    {
+      "contentWidth": 1280,
+      "headingSize": "56.96px",
+      "scrollWidth": 1280,
+      "width": 1280
+    },
+    {
+      "contentWidth": 1440,
+      "headingSize": "64.08px",
+      "scrollWidth": 1440,
+      "width": 1440
+    }
+  ],
+  "semanticChecks": [
+    {
+      "duplicateIds": [],
+      "h1": 1,
+      "missingImageAlt": 0,
+      "overflow": false,
+      "path": "/",
+      "unlabelledControls": 0,
+      "width": 320
+    },
+    {
+      "duplicateIds": [],
+      "h1": 1,
+      "missingImageAlt": 0,
+      "overflow": false,
+      "path": "/rooms/",
+      "unlabelledControls": 0,
+      "width": 320
+    },
+    {
+      "duplicateIds": [],
+      "h1": 1,
+      "missingImageAlt": 0,
+      "overflow": false,
+      "path": "/seasons/",
+      "unlabelledControls": 0,
+      "width": 320
+    },
+    {
+      "duplicateIds": [],
+      "h1": 1,
+      "missingImageAlt": 0,
+      "overflow": false,
+      "path": "/rooms/bedroom/",
+      "unlabelledControls": 0,
+      "width": 320
+    },
+    {
+      "duplicateIds": [],
+      "h1": 1,
+      "missingImageAlt": 0,
+      "overflow": false,
+      "path": "/search/",
+      "unlabelledControls": 0,
+      "width": 320
+    },
+    {
+      "duplicateIds": [],
+      "h1": 1,
+      "missingImageAlt": 0,
+      "overflow": false,
+      "path": "/admin/login/",
+      "unlabelledControls": 0,
+      "width": 320
+    },
+    {
+      "duplicateIds": [],
+      "h1": 1,
+      "missingImageAlt": 0,
+      "overflow": false,
+      "path": "/unknown/",
+      "unlabelledControls": 0,
+      "width": 320
+    }
+  ]
+}

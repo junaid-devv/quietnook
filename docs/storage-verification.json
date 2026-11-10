@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-09T07:53:18.415Z",
+  "method": "Temporary private QA bucket in the selected Supabase project, separate from editorial media",
+  "checks": [
+    "Real private bucket upload/download and SHA-256 backup integrity",
+    "Anonymous direct download denied",
+    "Real object deletion and restoration from backup bytes, hash verified"
+  ],
+  "cleanup": "QA object and bucket removed; no production media/article records created",
+  "limitations": [
+    "Does not verify an editor's authenticated upload through the studio UI.",
+    "Does not substitute for full Auth/database disaster recovery."
+  ]
+}
